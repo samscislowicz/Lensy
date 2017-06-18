@@ -1,0 +1,23 @@
+<App>
+  <Page ux:Class="CameraPage">
+	<Router ux:Dependency="router"/>
+  <JavaScript>
+    var Observable = require('FuseJS/Observable');
+    var Camera = require('FuseJS/Camera');
+    var picture = Observable('Images/Camera.png');
+
+    function takePicture() {
+      Camera.takePicture(640, 480).then(function(image){
+        picture.value = image;
+      }).catch(function(error){
+        console.error(error);
+      })
+    }
+
+    module.exports = {
+      picture: picture,
+      takePicture: takePicture
+    }
+  </JavaScript>
+</Page>
+</App>

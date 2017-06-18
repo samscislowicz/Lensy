@@ -1,0 +1,112 @@
+<Panel ux:Class="LensyV2.GeneratedClasses">
+	<Font File="LensyV2.sketch-assets/SFText-Medium.otf" ux:Global="SFUIText_Medium" />
+	<Font File="LensyV2.sketch-assets/SFDisplay-Bold.otf" ux:Global="SFUIDisplay_Bold" />
+	<Image ux:Class="LensyV2.iPhone_7.Exit_Button.Oval">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7.Exit_Button.Oval@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7.Exit_Button.Oval@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Font File="LensyV2.sketch-assets/SFDisplay-Medium.otf" ux:Global="SFUIDisplay_Medium" />
+	<Image ux:Class="LensyV2.iPhone_7.Base_Buttons.Line">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7.Base_Buttons.Line@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7.Base_Buttons.Line@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7.Base_Buttons.Line_0">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7.Base_Buttons.Line_0@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7.Base_Buttons.Line_0@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7.Enlight4">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7.Enlight4@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7.Enlight4@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Font File="LensyV2.sketch-assets/Miciana.ttf" ux:Global="Miciana_Regular" />
+	<Font File="LensyV2.sketch-assets/SFText-Semibold.otf" ux:Global="SFUIText_Semibold" />
+	<Font File="LensyV2.sketch-assets/SFText-Regular.otf" ux:Global="SFUIText_Regular" />
+	<Image ux:Class="LensyV2.iPhone_7.Background">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7.Background@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7.Background@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.Background">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/Background@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/Background@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Font File="LensyV2.sketch-assets/SFText-LightItalic.otf" ux:Global="SFUIText_LightItalic" />
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Aperture_Ring">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Aperture_Ring@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Aperture_Ring@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Warning_Symbol.Oval">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Warning_Symbol.Oval@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Warning_Symbol.Oval@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Font File="LensyV2.sketch-assets/SFText-Light.otf" ux:Global="SFUIText_Light" />
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Line_Copy_5">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_Copy_5@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_Copy_5@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Line">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Line_Copy_4">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_Copy_4@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_Copy_4@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Line_0">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_0@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_0@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Line_Copy_3">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_Copy_3@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_Copy_3@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Line_Copy_3_0">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_Copy_3_0@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_Copy_3_0@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Line_1">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_1@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Line_1@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Base_Buttons.Line">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Base_Buttons.Line@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Base_Buttons.Line@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="LensyV2.iPhone_7_Copy.Base_Buttons.Line_0">
+		<MultiDensityImageSource>
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Base_Buttons.Line_0@1x.png" Density="1" />
+			<FileImageSource File="LensyV2.sketch-assets/iPhone_7_Copy.Base_Buttons.Line_0@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+</Panel>
