@@ -1,10 +1,11 @@
 <App>
   <Router ux:Name="router"/>
+
   <ClientPanel>
-    <Navigator DefaultPath="Home">
-  	   <HomePage ux:Template="Home" router="router" />
-  	    <SettingsPage ux:Template="Settings" router="router" />
-        <CameraPage ux:Template="Camera" router="router" />
+    <Navigator DefaultPath="home">
+  	   <HomePage ux:Template="home" router="router" />
+  	   <SettingsPage ux:Template="settings" router="router" />
+       <CameraPage ux:Template="camera" router="router" />
     </Navigator>
   </ClientPanel>
 </App>

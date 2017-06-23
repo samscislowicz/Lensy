@@ -1,0 +1,33 @@
+  <Page ux:Class="SettingsPage">
+    <Router ux:Dependency="router" />
+
+    <LensyV2.Background Width="100%" Height="100%" X="194.933333333333%" Y="-3.14842578710645%" />
+		<!-- <Page HitTestMode="LocalBoundsAndChildren" ClipToBounds="true"> -->
+			<Text Font="SFUIText_LightItalic" FontSize="24" TextColor="#FFF" TextAlignment="Center" Value="Try these settings:" X="6.13333333333333%" Y="19.1904047976012%" />
+			<LensyV2.iPhone_7_Copy.Aperture_Ring Width="18.6666666666667%" Height="10.4947526236882%" X="40.8%" Y="6.44677661169415%" />
+			<Text Font="SFUIText_Medium" FontSize="24" TextColor="#FFF" TextAlignment="Center" Value="1/100" X="41.0666666666667%" Y="68.6656671664168%" />
+			<Text Font="SFUIText_Medium" FontSize="24" TextColor="#FFF" TextAlignment="Center" Value="f/12" X="44.2666666666667%" Y="50.0749625187406%" />
+			<Text Font="SFUIText_Medium" FontSize="24" TextColor="#FFF" TextAlignment="Center" Value="100 - 200" X="34.9333333333333%" Y="34.6326836581709%" />
+			<Panel Width="9.86666666666667%" Height="5.5472263868066%" X="5.33333333333333%" Y="77.5112443778111%">
+				<Text Font="SFUIText_Medium" FontSize="24" TextColor="#FFF" TextAlignment="Center" Value="!" X="45.945945945946%" Y="13.5135135135135%" />
+				<LensyV2.iPhone_7_Copy.Warning_Symbol.Oval Width="100%" Height="100%" X="0%" Y="0%" />
+			</Panel>
+			<Text Font="SFUIText_Light" FontSize="16" TextColor="#FFF" Value="Open the Lensy app on your Apple Watch to see these settings conviently on your wrist while shooting!" X="17.6%" Y="78.2608695652174%" />
+			<LensyV2.iPhone_7_Copy.Line_Copy_5 Width="37.8666666666667%" Height="0.149925037481259%" X="0.266666666666667%" Y="62.2188905547226%" />
+			<LensyV2.iPhone_7_Copy.Line Width="37.3333333333333%" Height="0.149925037481259%" X="62.6666666666667%" Y="62.2188905547226%" />
+			<LensyV2.iPhone_7_Copy.Line_Copy_4 Width="36%" Height="0.149925037481259%" X="64%" Y="46.0269865067466%" />
+			<LensyV2.iPhone_7_Copy.Line_0 Width="35.7333333333333%" Height="0.149925037481259%" X="0%" Y="46.0269865067466%" />
+			<LensyV2.iPhone_7_Copy.Line_Copy_3 Width="100%" Height="0.299850074962519%" X="0%" Y="13.7931034482759%" />
+			<LensyV2.iPhone_7_Copy.Line_Copy_3_0 Width="42.6666666666667%" Height="0.299850074962519%" X="57.3333333333333%" Y="29.8350824587706%" />
+			<LensyV2.iPhone_7_Copy.Line_1 Width="43.2%" Height="0.299850074962519%" X="0%" Y="29.5352323838081%" />
+			<Text Font="SFUIText_Light" FontSize="24" TextColor="#FFF" TextAlignment="Center" Value="Shutter&#xA;Speed" X="39.4666666666667%" Y="57.5712143928036%" />
+			<Text Font="SFUIText_Light" FontSize="24" TextColor="#FFF" TextAlignment="Center" Value="F-STOP" X="38.9333333333333%" Y="42.7286356821589%" />
+			<Text Font="SFUIText_Light" FontSize="24" TextColor="#FFF" TextAlignment="Center" Value="ISO" X="45.6%" Y="27.2863568215892%" />
+			<Panel Width="100%" Height="10.6446776611694%" X="0%" Y="89.3553223388306%">
+				<Text Font="SFUIDisplay_Medium" FontSize="20" TextColor="#FFF" Value="Home" X="18.4%" Y="28.169014084507%" />
+				<Text Font="SFUIDisplay_Medium" FontSize="20" TextColor="#FFFEFE" Value="New Settings" X="60%" Y="29.5774647887324%" />
+				<LensyV2.iPhone_7_Copy.Base_Buttons.Line Width="0.533333333333333%" Height="98.5915492957747%" X="50.1333333333333%" Y="1.40845070422535%" />
+				<LensyV2.iPhone_7_Copy.Base_Buttons.Line_0 Width="100%" Height="2.8169014084507%" X="0%" Y="0%" />
+			</Panel>
+		<!-- </Page> -->
+</Page>

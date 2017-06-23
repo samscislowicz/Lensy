@@ -1,0 +1,47 @@
+<Page ux:Class="HomePage">
+			<Router ux:Dependency="router"/>
+
+			<JavaScript>
+			function goToCamera(){
+				router.push("camera");
+			}
+			module.exports ={
+		    	goToCamera: goToCamera
+				}
+			</JavaScript>
+
+		<!-- <Page HitTestMode="LocalBoundsAndChildren" ClipToBounds="true"> -->
+      <Text Font="Miciana_Regular" FontSize="100" TextColor="#FFF" TextAlignment="Center" Value="Lensy" X="22.9333333333333%" Y="10.0449775112444%">
+				<DropShadow Size="4" Distance="2" Color="#000" Spread="0" />
+			</Text>
+
+			<Panel Width="84%" Height="22.4887556221889%" X="8%" Y="62%">
+      <Text Font="SFUIText_Medium" FontSize="16" TextColor="#000" TextWrapping="Wrap" Value="Hello and welcome to Lensy! Get started by pressing New Settings to take a picture with your phone camera of your set. After the photo is taken, your recemmended settings will be displayed!" X="3%" TextAlignment="Left" Y="9%" Margin="0, 0, 0, 0" Width="95%" Alignment="Default" />
+			<Text Font="SFUIDisplay_Bold" FontSize="24" TextColor="#D92424" Value="X" X="95.4%" Y="-4%" />
+			<LensyV2.iPhone_7.Exit_Button.Oval Width="100%" Height="30%" X="48%" Y="-8%" />
+			<WhilePressed>
+				<Hide/>
+			</WhilePressed>
+			<Rectangle Width="100%" X="0%" Y="0%" Color="#D8D8D8" Opacity="0.70" Height="100%" />
+			</Panel>
+
+      <Panel Width="100%" Height="70.6" X="0%" Y="0%" Alignment="BottomCenter">
+				<Text Font="SFUIDisplay_Medium" FontSize="20" TextColor="#838383" Value="Home" Y="0" Alignment="CenterLeft" X="60" />
+					<LensyV2.iPhone_7.Base_Buttons.Line Width="0.266666666666667%" Height="100%" X="49.8666666666667%" Y="0%" />
+				<LensyV2.iPhone_7.Base_Buttons.Line_0 Width="100%" Height="1.40845070422535%" X="0%" Y="0%" />
+			</Panel>
+
+      <Panel ux:Class="GetSettingsButton" HitTestMode="LocalBounds" Alignment="BottomRight" X="0" Y="0" Width="50%" Height="70">
+          <string ux:Property="Text" />
+          <Text Value="{ReadProperty Text}" Font="SFUIDisplay_Medium" FontSize="20" TextColor="#FFFEFE" Alignment="Center" Margin="30,15" Clicked="{goToCamera}" />
+				  <!-- <WhilePressed> -->
+              <!-- <Change this.Color="#138" Duration="0.05" DurationBack=".2" /> -->
+          <!-- </WhilePressed> -->
+      </Panel>
+      <GetSettingsButton Text="New Settings" X="0" Y="0" />
+
+      <LensyV2.iPhone_7.Enlight4 Width="84.2666666666667%" Height="50.3748125937031%" X="15.7333333333333%" Y="26.0869565217391%" Opacity="0.5" />
+			<LensyV2.iPhone_7.Background Width="100%" Height="100%" X="0%" Y="0%" />
+		<!-- </Page> -->
+	<LensyV2.Background Width="100%" Height="100%" X="194.933333333333%" Y="-3.14842578710645%" />
+</Page>
